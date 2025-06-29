@@ -4,7 +4,7 @@ import pandas as pd
 import talib
 from  datetime  import  datetime, timedelta
 
-symbol =  "300348"
+symbol =  "300350"
 start_date = (datetime.today() - timedelta(days=365  *  2)).strftime('%Y%m%d')
 df = ak.fund_etf_hist_em(symbol=symbol, period="daily", start_date=start_date, end_date='20250520')
 
