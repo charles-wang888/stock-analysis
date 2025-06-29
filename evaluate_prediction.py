@@ -122,7 +122,7 @@ def plot_predictions(dates, actual, predicted, symbol):
     plt.close()
 
 def main():
-    symbol = "300348"  # 长亮科技
+    symbol = "300350"
 
     # 设置时间范围（最近3个月）
     end_date = datetime.today().strftime('%Y%m%d')
